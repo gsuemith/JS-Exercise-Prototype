@@ -112,10 +112,14 @@ function Airplane(name) {
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+
+    1. "this" is the window or console for functions outside objects
+
+    2. "this" in a method is the object in which the function is invoked (before the dot)
+
+    3. When using "new", "this" is the object returned by the constructor function
+    
+    4. When using .call or .apply, "this" refers to the object passed in.  
   */
   
   
